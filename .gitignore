@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# 秘密情報・鍵（絶対に上げない）
+.env
+.env.*
+**/.env
+**/.env.*
+**/.env.save
+**/GEMINI_API_KEY.env
+**/*API_KEY*
+**/*api_key*
+**/*SECRET*
+**/*secret*
+**/*.pem
+**/credentials.json
+**/service-account*.json
+**/*token*.json
+
+# Python / 仮想環境
+.venv/
+**/.venv/
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+**/.pytest_cache/
+
+# ローカルツール・作業カス
+.cursor/
+.hermes/
+.idea/
+.vscode/
+*.log
+**/*.log
+tmp/
+**/tmp/
+.cache/
+**/.cache/
+
+# Obsidian の端末依存（共有しなくても困りにくいもの）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# 大きなバイナリや一時ダウンロード（あれば）
+*.crdownload
+*.part

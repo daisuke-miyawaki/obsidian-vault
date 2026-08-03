@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+data/drafts/*
+!data/drafts/.gitkeep
+data/approved/*
+!data/approved/.gitkeep
+data/state/*
+!data/state/.gitkeep

@@ -1,0 +1,75 @@
+# cocona_ai_school 動画ナレッジ 進捗一覧
+
+全 **69** 本（2026-07-08 URLリストから登録）
+
+| No | タイトル | URL | md | 状態 |
+|----|----------|-----|-----|------|
+| 001 | 【超進化】 NotebookLM使ってない人はオワコンです【神アップデート】 | [YouTube](https://www.youtube.com/watch?v=IiRNIDBN6JM) | — | 未着手 |
+| 002 | 【必見】意外とできてないChatGPTの初期設定を徹底解説しました | [YouTube](https://www.youtube.com/watch?v=vQ06V0FOHOA) | — | 未着手 |
+| 003 | 【徹底解説】初心者でもわかるCodexの使い方完全ガイド | [YouTube](https://www.youtube.com/watch?v=mTmWgrVauzg) | — | 未着手 |
+| 004 | 【超入門】AIの情報漏洩を防ぐセキュリティ対策TOP7 | [YouTube](https://www.youtube.com/watch?v=o3zo4Lot5d4) | — | 未着手 |
+| 005 | 【超進化】Geminiが神アップデートで全領域を制圧しました【Google I/O】 | [YouTube](https://www.youtube.com/watch?v=nFuiC7qg5jc) | — | 未着手 |
+| 006 | 【超速報】史上最強AI、Fable 5が異次元のレベルだったので解説します | [YouTube](https://www.youtube.com/watch?v=tsKnHLSzizk) | — | 未着手 |
+| 007 | 【革命】ChatGPT Images 2.0の活用術TOP10がヤバすぎました | [YouTube](https://www.youtube.com/watch?v=4w5HebFYngU) | — | 未着手 |
+| 008 | 【待望】Gemini神アップデートであの機能がついに実装されました | [YouTube](https://www.youtube.com/watch?v=07oBzQyFghA) | — | 未着手 |
+| 009 | 【衝撃】Claude Opus 4.8のアップデートがヤバすぎたので緊急で撮影しました。 | [YouTube](https://www.youtube.com/watch?v=Y3-ezma9KTo) | — | 未着手 |
+| 010 | 【神機能】Claude Designまだ使ってない人かなり損してます | [YouTube](https://www.youtube.com/watch?v=K7V1TY5WJRE) | — | 未着手 |
+| 011 | 【実演】Claude CodeでAI社員を使って会社経営する方法を解説します！【1人起業】 | [YouTube](https://www.youtube.com/watch?v=505xfQaEtxU) | — | 未着手 |
+| 012 | 【特別公開】AI使って稼ぎたいならClaude Codeが最強です | [YouTube](https://www.youtube.com/watch?v=iu8k5pwCdLs) | — | 未着手 |
+| 013 | 【徹底解説】チャット・Cowork・Claude Codeの使い分けで迷ってる人は必ず見てください… | [YouTube](https://www.youtube.com/watch?v=x7HZzADfFgY) | — | 未着手 |
+| 014 | 【完全自動化】今話題のClaude Coworkがヤバすぎました | [YouTube](https://www.youtube.com/watch?v=dyYNWWI0zUE) | — | 未着手 |
+| 015 | 【保存版】Claudeがさらに使いやすくなる神機能を公開します！【Skills】 | [YouTube](https://www.youtube.com/watch?v=f8l0wIu5vCw) | — | 未着手 |
+| 016 | 【必見】GPT-5.4神アップデートでした【進化ポイント/使ってみたリアルな感想/Claude・G… | [YouTube](https://www.youtube.com/watch?v=aSGz6F3n0uY) | — | 未着手 |
+| 017 | 【2026年最新】このAIに課金しておけばもう悩むことはありません【オススメAI4選】 | [YouTube](https://www.youtube.com/watch?v=eL8EcDAGXzA) | — | 未着手 |
+| 018 | 【革命】2026年最強AIツール「Claude Code」がヤバすぎました【完全攻略】 | [YouTube](https://www.youtube.com/watch?v=zSKg23OBkFA) | — | 未着手 |
+| 019 | 【完全保存版】2026年最強AIの「Claude」がヤバすぎました【革命】 | [YouTube](https://www.youtube.com/watch?v=4bijCzNyVF0) | — | 未着手 |
+| 020 | 【GoogleのAI】Gemで自分専用のAIを作る方法を徹底解説！【完全攻略】 | [YouTube](https://www.youtube.com/watch?v=G4B_d598vbU) | — | 未着手 |
+| 021 | 【必見】この習慣で劇的に人生が変わりました【特別公開】 | [YouTube](https://www.youtube.com/watch?v=MPWojezLvps) | — | 未着手 |
+| 022 | 全人類に使って欲しい最新AI「Cursor」の何がやばいか解説します。【コレ1本で全てわかるCur… | [YouTube](https://www.youtube.com/watch?v=32QyL9dle4s) | — | 未着手 |
+| 023 | 【革命】GoogleのAIを連携してスライドを作る方法を解説します！【NotebookLM×Gem… | [YouTube](https://www.youtube.com/watch?v=0AN3IYtyeQw) | — | 未着手 |
+| 024 | 【断言します】いま私が本気でオススメする神AIはこれです！【Antigravity】 | [YouTube](https://www.youtube.com/watch?v=pQ8r3P_SCMI) | — | 未着手 |
+| 025 | 【革命】AIエージェント「Manus」の使い方を徹底解説！【誰でもアプリが作れる】 | [YouTube](https://www.youtube.com/watch?v=8Jqm1_R33Z4) | — | 未着手 |
+| 026 | 【天才だけが使ってる】AIの回答の精度が爆上がりするプロンプト3選 | [YouTube](https://www.youtube.com/watch?v=ZgUy5FRh0PU) | — | 未着手 |
+| 027 | 【公式が認めてる】Geminiをお得に使える方法を暴露します | [YouTube](https://www.youtube.com/watch?v=vsPgWSBjhmI) | — | 未着手 |
+| 028 | 【2026年最新】ChatGPTとGeminiどっちを使うべきか徹底比較！【結論出ました】 | [YouTube](https://www.youtube.com/watch?v=LtYZkbRRLoQ) | — | 未着手 |
+| 029 | 【断言します。】超超超オススメな2026年使うべきAI8選【コレだけ使え！】 | [YouTube](https://www.youtube.com/watch?v=QH-pYTWSSV4) | — | 未着手 |
+| 030 | 【2026年最新】Gemini最強の使い方はコレです【プロ級のWebサイトを作る方法】 | [YouTube](https://www.youtube.com/watch?v=6s5wz9YxiqM) | — | 未着手 |
+| 031 | 【すぐに使える】Googleの画像生成AI「Nano Banana Pro」の天才的な使い方9選を… | [YouTube](https://www.youtube.com/watch?v=oEkGxbxWT9w) | — | 未着手 |
+| 032 | NotebookLMが最強でした。使い方・稼ぎ方を解説します。【プロ級のスライドを作るYAMLプロ… | [YouTube](https://www.youtube.com/watch?v=cBcBac1yY_8) | — | 未着手 |
+| 033 | 【ずるい】9割が知らないNanoBananaProの稼ぎ方10選【Google最新AIでAI副業】 | [YouTube](https://www.youtube.com/watch?v=QbO5-P7nvg0) | — | 未着手 |
+| 034 | 【革命】Gemini3.0の使い方を徹底解説！【最強】 | [YouTube](https://www.youtube.com/watch?v=NdM0Mx7EDAI) | — | 未着手 |
+| 035 | 【完全攻略】Googleの画像生成AI「Nano Banana Pro」の使い方を解説します | [YouTube](https://www.youtube.com/watch?v=Pl-IaM0ftAk) | — | 未着手 |
+| 036 | 【初心者でもできる】Google最新AI Opalの使い方を徹底解説！ | [YouTube](https://www.youtube.com/watch?v=Bv0F4dySxys) | — | 未着手 |
+| 037 | 【OLから年2000万】AI副業で月100万稼ぐ方法【私はこうやって稼ぎました】 | [YouTube](https://www.youtube.com/watch?v=7shcdwIUrSs) | — | 未着手 |
+| 038 | 【初心者OK】スマホだけで月30万稼げるAI副業3選【私はこうやって稼ぎました。】 | [YouTube](https://www.youtube.com/watch?v=9hA41Vtw-Vs) | — | 未着手 |
+| 039 | AI×noteで10万稼いだ事ない人は必ず見てください | [YouTube](https://www.youtube.com/watch?v=vzMUEYvrOlg) | — | 未着手 |
+| 040 | 【本当は教えたくないAI副業】月10万稼げるGPTs販売の全て | [YouTube](https://www.youtube.com/watch?v=tWc-Y6zsnbs) | — | 未着手 |
+| 041 | 【早い者勝ち】実は稼げるAI×Threadsの稼ぎ方7選【最大100万稼げるAI副業】 | [YouTube](https://www.youtube.com/watch?v=0yNvkYD5PLM) | — | 未着手 |
+| 042 | 【知ってれば稼げる】AI×noteで月30万以上稼ぐためのコツ10選 | [YouTube](https://www.youtube.com/watch?v=jPMQRjFWMl0) | — | 未着手 |
+| 043 | 【特別公開】手取り21万OLだった私がAIで脱サラした方法【0からAI副業で稼いだ方法】 | [YouTube](https://www.youtube.com/watch?v=cZhrLWkRzRI) | — | 未着手 |
+| 044 | 【寝ててもnoteが作れる!?】とあるAIでnoteを自動量産する方法 | [YouTube](https://www.youtube.com/watch?v=R1rbCI3Nasc) | — | 未着手 |
+| 045 | 【全部見せます】AI×noteで月100万以上稼いだ「売れるnoteの書き方」を1から徹底解説! | [YouTube](https://www.youtube.com/watch?v=DGBNsb6AekM) | — | 未着手 |
+| 046 | 【2025年最新】AI×無料noteで月40万こうやって稼ぐ | [YouTube](https://www.youtube.com/watch?v=QJYupZHVmrI) | — | 未着手 |
+| 047 | 【このAIヤバい…】初心者でも半自動でAIアフィリエイトで稼げるようになりました | [YouTube](https://www.youtube.com/watch?v=sh2jppJeQ4A) | — | 未着手 |
+| 048 | 【1ヶ月目で¥152,000稼げた】1日30分でAI占いで月10万稼ぎ方【初心者OK】 | [YouTube](https://www.youtube.com/watch?v=mtyvIC8qcaE) | — | 未着手 |
+| 049 | 【153万稼げた】初心者でもAI×noteで稼ぐ方法を暴露します。【AI副業/ChatGPT副業/… | [YouTube](https://www.youtube.com/watch?v=gEAp0utbCjo) | — | 未着手 |
+| 050 | 【プロ厳選】知ってるだけで差がつくChatGPTの裏技10選【収入の桁が上がる】 | [YouTube](https://www.youtube.com/watch?v=OQk6PqF8Ous) | — | 未着手 |
+| 051 | 【想像以上でした！】AI副業の7月の収益公開します！【どんな稼ぎ方？どれぐらい稼げるの？もお見せし… | [YouTube](https://www.youtube.com/watch?v=s8N4TZWwSF0) | — | 未着手 |
+| 052 | ChatGPT×ViduAIでドット絵を動かして稼ぐ方法【AI副業】 | [YouTube](https://www.youtube.com/watch?v=WcVs9sAvni0) | — | 未着手 |
+| 053 | 【9割が知らない】初心者でも稼げる穴場おすすめAI副業7選【月100万稼げた方法も公開】 | [YouTube](https://www.youtube.com/watch?v=TreuxnFUGRc) | — | 未着手 |
+| 054 | 【3000万再生超え】AIで歴史POV動画の作り方・稼ぎ方【AI副業初心者でも月10万稼ぐ】 | [YouTube](https://www.youtube.com/watch?v=-4TmMN9hDM8) | — | 未着手 |
+| 055 | 【緊急】AI動画は収益化が厳しくなりました。【2025年7月15日から始めるYoutube収益化ポ… | [YouTube](https://www.youtube.com/watch?v=5Zs-Hhl7aqU) | — | 未着手 |
+| 056 | 【保存版】AIでアニメOP風動画を作って毎月10万稼ぐ方法【AI動画・AI音楽でAIアニメを作るA… | [YouTube](https://www.youtube.com/watch?v=XbM6oaHZvHU) | — | 未着手 |
+| 057 | 【緊急】1日30分で月22万稼げたAI副業を暴露します【初心者でも簡単にできるAI×Threads… | [YouTube](https://www.youtube.com/watch?v=69lANKIJwok) | — | 未着手 |
+| 058 | 【毎月10万稼ぐ】スマホ×AIでショート動画を10分で作る方法【AI副業】【私が実際にやってる方法】 | [YouTube](https://www.youtube.com/watch?v=LxnBtKiY990) | — | 未着手 |
+| 059 | 【月50万！？】ASMR動画をAIで10分で作って稼ぐまで全公開【AI副業】 | [YouTube](https://www.youtube.com/watch?v=HuG-JldchSo) | — | 未着手 |
+| 060 | 【2025年完全版】AI×ショート動画で月30万稼ぐ方法を徹底解説 | [YouTube](https://www.youtube.com/watch?v=TnRfLU5OSyU) | — | 未着手 |
+| 061 | Claude Fable5復活！プレゼントは本編に受け取り方法書いてます🥺 | [YouTube](https://www.youtube.com/watch?v=GP0op497os4) | — | 未着手 |
+| 062 | Claude x noteで月7桁いく方法 | [YouTube](https://www.youtube.com/watch?v=Ki7GBSJT9eE) | — | 未着手 |
+| 063 | Claude x Amazon ほったらかしで月5万作る方法 | [YouTube](https://www.youtube.com/watch?v=lE_KeTi7et0) | — | 未着手 |
+| 064 | 今日から使えるClaudeで自動化する裏技 | [YouTube](https://www.youtube.com/watch?v=g4PZdUcap74) | — | 未着手 |
+| 065 | Claudeのセキュリティを上げる魔法のプロンプト🪄 | [YouTube](https://www.youtube.com/watch?v=qekHk6p0DQk) | — | 未着手 |
+| 066 | 9割が知らないChatGPTの裏設定 | [YouTube](https://www.youtube.com/watch?v=9xnMBMkASA0) | — | 未着手 |
+| 067 | タゴサク構文AI使ってる人の本音 | [YouTube](https://www.youtube.com/watch?v=vrsCPE6Pbf4) | — | 未着手 |
+| 068 | 天才だけが使ってるClaude神コマンド3選✨ | [YouTube](https://www.youtube.com/watch?v=3sZcnOuWtxo) | — | 未着手 |
+| 069 | 【ChatGPT終了？】イーロン・マスクがClaude codeを神アプデ | [YouTube](https://www.youtube.com/watch?v=NwR72PzGAlM) | — | 未着手 |

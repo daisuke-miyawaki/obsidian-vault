@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRIZM トップページ — 大カテゴリレイアウト案</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      background: #f4f6f8;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    /* ヘッダー（サイトイメージ） */
+    .site-header {
+      background: #1a3a5c;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .site-header .logo { font-size: 1.25rem; font-weight: bold; letter-spacing: 0.05em; }
+    .site-header nav a { color: #ccc; text-decoration: none; margin-left: 1.25rem; font-size: 0.85rem; }
+
+    .container { max-width: 1000px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+
+    .page-label {
+      display: inline-block;
+      background: #e8f0fe;
+      color: #1a5fb4;
+      font-size: 0.75rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+    }
+    h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+    .lead { color: #555; font-size: 0.9rem; margin-bottom: 2rem; }
+
+    /* 検索 */
+    .search-block {
+      background: #fff;
+      border: 1px solid #dde3ea;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .search-block h2 { font-size: 1rem; margin-bottom: 0.75rem; color: #333; }
+    .search-row { display: flex; gap: 0.5rem; }
+    .search-row input {
+      flex: 1;
+      padding: 0.75rem 1rem;
+      border: 2px solid #1a5fb4;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    .search-row button {
+      padding: 0.75rem 1.5rem;
+      background: #1a5fb4;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .search-hint { font-size: 0.8rem; color: #888; margin-top: 0.5rem; }
+
+    /* 大カテゴリ見出し */
+    .section-title {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      padding-left: 0.6rem;
+      border-left: 4px solid #1a5fb4;
+    }
+
+    /* メイングリッド：上3 + 下2 */
+    .cat-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .cat-grid-bottom {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      max-width: 66.666%;
+    }
+
+    .cat-card {
+      background: #fff;
+      border: 1px solid #dde3ea;
+      border-radius: 10px;
+      padding: 1.25rem 1.25rem 1rem;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
+      position: relative;
+      overflow: hidden;
+    }
+    .cat-card:hover {
+      border-color: #1a5fb4;
+      box-shadow: 0 6px 20px rgba(26,95,180,0.12);
+      transform: translateY(-2px);
+    }
+    .cat-card .num {
+      position: absolute;
+      top: 0.75rem;
+      right: 0.75rem;
+      background: #1a5fb4;
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: bold;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .cat-card .icon { font-size: 2rem; margin-bottom: 0.5rem; display: block; }
+    .cat-card h3 { font-size: 1.05rem; margin-bottom: 0.2rem; }
+    .cat-card .count { font-size: 0.85rem; color: #1a5fb4; font-weight: bold; }
+    .cat-card .desc { font-size: 0.8rem; color: #666; margin-top: 0.4rem; line-height: 1.5; }
+    .cat-card .subs {
+      margin-top: 0.75rem;
+      padding-top: 0.75rem;
+      border-top: 1px dashed #e8ecf0;
+      font-size: 0.72rem;
+      color: #888;
+      line-height: 1.7;
+    }
+
+    /* ①看板：やや強調 */
+    .cat-card--hero { border-top: 3px solid #e67e22; }
+    .cat-card--hero .num { background: #e67e22; }
+
+    /* ②黒板：最大カテゴリ */
+    .cat-card--main { border-top: 3px solid #1a5fb4; }
+
+    /* ⑤メニュー：おまけ（控えめ） */
+    .cat-card--bonus {
+      border-top: 3px solid #aaa;
+      background: #fafafa;
+      opacity: 0.92;
+    }
+    .cat-card--bonus .num { background: #999; }
+    .cat-card--bonus .count { color: #777; }
+    .bonus-label {
+      display: inline-block;
+      font-size: 0.65rem;
+      background: #eee;
+      color: #666;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+      font-weight: normal;
+    }
+
+    /* おすすめ */
+    .reco-block {
+      margin-top: 2rem;
+      background: #fff;
+      border: 1px solid #dde3ea;
+      border-radius: 10px;
+      padding: 1.25rem;
+    }
+    .reco-block h2 { font-size: 0.95rem; margin-bottom: 0.75rem; }
+    .reco-items { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+    .reco-item {
+      background: #f8f9fa;
+      border: 1px solid #e8ecf0;
+      border-radius: 6px;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.8rem;
+      color: #444;
+    }
+
+    /* 注釈 */
+    .note {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #fffbe6;
+      border: 1px solid #f0e6a0;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      color: #665c00;
+    }
+
+    /* スマホ */
+    @media (max-width: 700px) {
+      .cat-grid { grid-template-columns: 1fr; }
+      .cat-grid-bottom { grid-template-columns: 1fr; max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">PRIZM</div>
+    <nav>
+      <a href="#">商品一覧</a>
+      <a href="#">会社案内</a>
+      <a href="#">お問い合わせ</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <span class="page-label">レイアウト案 — ブラウザで確認用</span>
+    <h1>トップページ：大カテゴリの並び</h1>
+    <p class="lead">商品一覧は出さず、検索＋5つの大カテゴリから探す構成です。</p>
+
+    <!-- 検索 -->
+    <section class="search-block">
+      <h2>🔍 商品を探す</h2>
+      <div class="search-row">
+        <input type="text" placeholder="型番・商品名（例：ACS-48L、G-1、MK-10）">
+        <button>検索</button>
+      </div>
+      <p class="search-hint">型番がわかっている方は、ここからが一番早いです。</p>
+    </section>
+
+    <!-- 大カテゴリ -->
+    <h2 class="section-title">カテゴリから探す</h2>
+
+    <!-- 上段：メイン3つ -->
+    <div class="cat-grid">
+
+      <a class="cat-card cat-card--hero" href="#">
+        <span class="num">1</span>
+        <span class="icon">🚧</span>
+        <h3>カラーコーン看板</h3>
+        <p class="count">83点</p>
+        <p class="desc">現場の出入り・工事・駐車場など。プリズムの看板ブランド商品。</p>
+        <p class="subs">
+          サブ6つ：出入り・誘導／工事・作業・危険／駐車・構内／道路・案内／安全・立入禁止／店舗・施設案内
+        </p>
+      </a>
+
+      <a class="cat-card cat-card--main" href="#">
+        <span class="num">2</span>
+        <span class="icon">📋</span>
+        <h3>黒板・ボード</h3>
+        <p class="count">約566点</p>
+        <p class="desc">木製・スチール・耐水・マーカーなど。いちばん品数が多いカテゴリ。</p>
+        <p class="subs">
+          サブ7つ：木製（屋内）／耐水木製（屋外）／スチール（屋内）／耐水スチール（屋外）／ホワイト黒板／マーカー（黒）／白マーカー
+        </p>
+      </a>
+
+      <a class="cat-card" href="#">
+        <span class="num">3</span>
+        <span class="icon">📅</span>
+        <h3>ホワイトボード・掲示板</h3>
+        <p class="count">64点</p>
+        <p class="desc">月予定表・管理板・安全掲示板など。事務所・現場事務所向け。</p>
+        <p class="subs">
+          サブ8つ：安全掲示板／法令付属品／危険予知表／管理用／月予定／行先予定／壁掛無地／その他
+        </p>
+      </a>
+
+    </div>
+
+    <!-- 下段：④⑤ -->
+    <div class="cat-grid-bottom">
+
+      <a class="cat-card" href="#">
+        <span class="num">4</span>
+        <span class="icon">⚠️</span>
+        <h3>KYボード</h3>
+        <p class="count">24点</p>
+        <p class="desc">危険予知活動用。アルミ製・ビニール製の手軽なボード。</p>
+        <p class="subs">
+          サブ2つ：アルミKYボード／ビニールKYボード
+        </p>
+      </a>
+
+      <a class="cat-card cat-card--bonus" href="#">
+        <span class="num">5</span>
+        <span class="icon">🍽</span>
+        <h3>メニューボード <span class="bonus-label">飲食店向け</span></h3>
+        <p class="count">116点</p>
+        <p class="desc">カフェ・飲食店向け。黒板の一種ですが、専用の棚を用意。</p>
+        <p class="subs">
+          サブ5つ：木製／耐水木製／スチール／耐水スチール／ホワイト
+        </p>
+      </a>
+
+    </div>
+
+    <!-- おすすめ -->
+    <section class="reco-block">
+      <h2>⭐ よく使われる商品</h2>
+      <div class="reco-items">
+        <span class="reco-item">ACS-48L 入口看板</span>
+        <span class="reco-item">G-1 木製黒板</span>
+        <span class="reco-item">E-1W 月予定表</span>
+        <span class="reco-item">MK-10C KYボード</span>
+      </div>
+    </section>
+
+    <div class="note">
+      <strong>このHTMLについて</strong><br>
+      ブラウザで開いてレイアウトを確認する用です。WordPressに入れるときは、デザイン・色・文言をサイトに合わせて調整します。<br>
+      ⑤メニューボードは「おまけ」扱いで、下段右・色を控えめにしています。
+    </div>
+
+  </div>
+
+</body>
+</html>

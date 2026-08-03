@@ -1,0 +1,19 @@
+channel_slug: かくじかん
+
+notebooklm:
+  base_url: https://notebooklm.google.com
+  notebook_name: かくじかん_batch01
+
+paths:
+  urls_file: ../かくじかん/_urls_all.txt
+  output_dir: ../かくじかん
+  index_file: ../かくじかん/_index.md
+  prompt_file: prompts/video_note.txt
+
+runtime:
+  headless: false
+  reply_timeout_sec: 300
+  source_index_timeout_sec: 120
+  delay_between_videos_sec: 10
+  max_retries: 3
+  batch_size: 50

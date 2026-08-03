@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Check---blue" transform="matrix(7.75,0,0,7.75,-131.75,-519.25)">
+        <g id="Bullet">
+            <path d="M25,82.5C20.9,82.5 17.5,79.1 17.5,75C17.5,70.9 20.9,67.5 25,67.5C29.1,67.5 32.5,70.9 32.5,75C32.5,79.1 29.1,82.5 25,82.5Z" style="fill:white;fill-rule:nonzero;"/>
+            <path d="M25,68C28.9,68 32,71.1 32,75C32,78.9 28.9,82 25,82C21.1,82 18,78.9 18,75C18,71.1 21.1,68 25,68M25,67C20.6,67 17,70.6 17,75C17,79.4 20.6,83 25,83C29.4,83 33,79.4 33,75C33,70.6 29.4,67 25,67Z" style="fill:rgb(206,213,217);fill-rule:nonzero;"/>
+        </g>
+        <path id="Check" d="M22.5,75.4L24.1,77L27.5,73" style="fill:none;stroke-width:1.07px;stroke:rgb(143,156,163);"/>
+    </g>
+</svg>

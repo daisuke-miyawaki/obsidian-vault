@@ -1,0 +1,7 @@
+# pepper手法の弱点を克服できそうな動画を分析
+
+プロジェクト: FXで資産運用 (../DB_%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88/FX%E3%81%A7%E8%B3%87%E7%94%A3%E9%81%8B%E7%94%A8%2069c8fce86f064f96a0599e9fed8e81e8.md)
+クライアント: SUNNYSH (../DB_%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%83%BB%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9/SUNNYSH%2008d06c9684c3467ba3373ef7768d2323.md)
+ステータス: Completion
+URL: https://www.youtube.com/watch?v=pm2Mdsa3QQ4
+作成日時: 2024年2月18日 17:37

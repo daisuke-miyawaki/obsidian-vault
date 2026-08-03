@@ -1,0 +1,101 @@
+//@version=5
+indicator(title='スマートOBV',
+     shorttitle='スマートOBV', format=format.volume, precision=0, timeframe='')
+
+// === 入力 ===
+src         = input(close, title='ソース')
+shortLength = input(1,  title='短期期間')
+longLength  = input(20, title='長期期間')
+pivR        = input.int(title='OBV波形 右ピボット', defval=1)
+pivL        = input.int(title='OBV波形 左ピボット', defval=20)
+
+// === ダイバージェンス設定 ===
+lbR         = input.int(title='ダイバ右ピボット', defval=1)
+lbL         = input.int(title='ダイバ左ピボット', defval=5)
+rangeUpper  = input.int(title='ルックバック最大', defval=100)
+rangeLower  = input.int(title='ルックバック最小',  defval=2)
+
+// === 表示切替 ===
+plotBull          = input.bool(true,  title='強気を表示')
+plotHiddenBull    = input.bool(false, title='隠れ強気を表示')      // 基本OFF
+plotBear          = input.bool(true,  title='弱気を表示')
+plotHiddenBear    = input.bool(false, title='隠れ弱気を表示')      // 基本OFF
+
+// ---- ラベル表示（すべて基本OFF） ----
+showBullLabel        = input.bool(false, title='通常 強気ラベル')
+showHiddenBullLabel  = input.bool(false, title='隠れ 強気ラベル')
+showBearLabel        = input.bool(false, title='通常 弱気ラベル')
+showHiddenBearLabel  = input.bool(false, title='隠れ 弱気ラベル')
+
+// === カラー（ブラックテーマ調・不透明度30%相当） ===
+bearColor       = color.new(color.red,    0)
+bullColor       = color.new(color.green,  0)
+hiddenBullColor = color.new(color.aqua,   0)
+hiddenBearColor = color.new(color.orange, 0)
+textColor       = color.new(color.white,  0)
+noneColor       = color.new(color.white,100)
+
+// === OBVオシレーター ===
+obvOsc       = ta.ema(ta.obv, shortLength) - ta.ema(ta.obv, longLength)
+// 🔹 不透明度30% = transparency 70
+obvFillColor = obvOsc > 0 ? color.new(color.teal, 70) : color.new(color.orange, 70)
+obvLineColor = color.new(color.white, 10)
+
+// === ダイバ補助 ===
+osc     = ta.ema(ta.obv, shortLength) - ta.ema(ta.obv, longLength)
+plFound = na(ta.pivotlow(osc, lbL, lbR)) ? false : true
+phFound = na(ta.pivothigh(osc, lbL, lbR)) ? false : true
+_inRange(cond) =>
+    bars = ta.barssince(cond == true)
+    rangeLower <= bars and bars <= rangeUpper
+
+//------------------------------------------------------------------------------
+// 通常 強気
+oscHL   = osc[lbR] > ta.valuewhen(plFound, osc[lbR], 1) and _inRange(plFound[1])
+priceLL = low[lbR] < ta.valuewhen(plFound, low[lbR], 1)
+bullCond = plotBull and priceLL and oscHL and plFound
+plot(plFound ? osc[lbR] : na, offset=-lbR, title='通常 強気',
+     linewidth=1, color=bullCond ? bullColor : noneColor, transp=0)
+plotshape(bullCond ? osc[lbR] : na, offset=-lbR, title='通常 強気ラベル',
+     style=shape.labelup, location=location.absolute, size=size.tiny, color=bullColor, textcolor=textColor, transp=0,
+     display = showBullLabel ? display.all : display.none)
+
+//------------------------------------------------------------------------------
+// 隠れ 強気（基本OFF）
+oscLL   = osc[lbR] < ta.valuewhen(plFound, osc[lbR], 1) and _inRange(plFound[1])
+priceHL = low[lbR] > ta.valuewhen(plFound, low[lbR], 1)
+hiddenBullCond = plotHiddenBull and priceHL and oscLL and plFound
+plot(plFound ? osc[lbR] : na, offset=-lbR, title='隠れ 強気',
+     linewidth=1, color=hiddenBullCond ? hiddenBullColor : noneColor, transp=0,
+     display = plotHiddenBull ? display.all : display.none)
+plotshape(hiddenBullCond ? osc[lbR] : na, offset=-lbR, title='隠れ 強気ラベル',
+     style=shape.labelup, location=location.absolute, size=size.tiny, color=hiddenBullColor, textcolor=textColor, transp=0,
+     display = showHiddenBullLabel ? display.all : display.none)
+
+//------------------------------------------------------------------------------
+// 通常 弱気
+oscLH   = osc[lbR] < ta.valuewhen(phFound, osc[lbR], 1) and _inRange(phFound[1])
+priceHH = high[lbR] > ta.valuewhen(phFound, high[lbR], 1)
+bearCond = plotBear and priceHH and oscLH and phFound
+plot(phFound ? osc[lbR] : na, offset=-lbR, title='通常 弱気',
+     linewidth=1, color=bearCond ? bearColor : noneColor, transp=0)
+plotshape(bearCond ? osc[lbR] : na, offset=-lbR, title='通常 弱気ラベル',
+     style=shape.labeldown, location=location.absolute, size=size.tiny, color=bearColor, textcolor=textColor, transp=0,
+     display = showBearLabel ? display.all : display.none)
+
+//------------------------------------------------------------------------------
+// 隠れ 弱気（基本OFF）
+oscHH   = osc[lbR] > ta.valuewhen(phFound, osc[lbR], 1) and _inRange(phFound[1])
+priceLH = high[lbR] < ta.valuewhen(phFound, high[lbR], 1)
+hiddenBearCond = plotHiddenBear and priceLH and oscHH and phFound
+plot(phFound ? osc[lbR] : na, offset=-lbR, title='隠れ 弱気',
+     linewidth=1, color=hiddenBearCond ? hiddenBearColor : noneColor, transp=0,
+     display = plotHiddenBear ? display.all : display.none)
+plotshape(hiddenBearCond ? osc[lbR] : na, offset=-lbR, title='隠れ 弱気ラベル',
+     style=shape.labeldown, location=location.absolute, color=hiddenBearColor, size=size.tiny, textcolor=textColor, transp=0,
+     display = showHiddenBearLabel ? display.all : display.none)
+
+// === OBVオシレーター描画 ===
+plot(0, title='ゼロライン', color=color.new(color.white, 40), style=plot.style_line, linewidth=1)
+plot(obvOsc, color=obvFillColor, title='OBVオシレーター', linewidth=3, style=plot.style_area)
+plot(obvOsc, color=obvLineColor, title='OBVライン', linewidth=1, style=plot.style_line)

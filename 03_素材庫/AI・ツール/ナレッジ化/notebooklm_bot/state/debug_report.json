@@ -1,0 +1,854 @@
+[
+  {
+    "label": "home",
+    "url": "https://notebooklm.google.com/",
+    "title": "NotebookLM",
+    "is_notebook": false,
+    "notebook_links": [
+      {
+        "href": "/notebook/2c4f0f26-0797-4cc0-a350-48c4b70d14cc",
+        "text": ""
+      },
+      {
+        "href": "/notebook/19bde485-a9c1-4809-8884-e872b2b67b44",
+        "text": ""
+      },
+      {
+        "href": "/notebook/34510332-d39c-499e-882d-e48393d612cd",
+        "text": ""
+      },
+      {
+        "href": "/notebook/32a12fd1-da7e-43d1-8ce8-aacb60460a00",
+        "text": ""
+      },
+      {
+        "href": "/notebook/90f7e700-77db-495e-afb8-4fb8d6ff7746",
+        "text": ""
+      },
+      {
+        "href": "/notebook/ddea0ff0-2141-4fd6-92bf-b6b8efc61469",
+        "text": ""
+      },
+      {
+        "href": "/notebook/8fa544a1-d36b-4185-99d7-eaf4b566c4d7",
+        "text": ""
+      },
+      {
+        "href": "/notebook/f7ce3a89-400a-454c-9aaf-04b4e1007750",
+        "text": ""
+      },
+      {
+        "href": "/notebook/722bb110-0734-41e3-81ef-6f14f96cf2cf",
+        "text": ""
+      },
+      {
+        "href": "/notebook/2a1c92e3-8ed1-490f-bd8c-45438a383928",
+        "text": ""
+      }
+    ],
+    "buttons": [
+      {
+        "i": 0,
+        "aria": "設定",
+        "text": "settings\n設定",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger extendable-button mat-tonal-button extendable-button-extended mat-un",
+        "visible": true
+      },
+      {
+        "i": 1,
+        "aria": null,
+        "text": "すべて",
+        "class": "mat-button-toggle-button mat-focus-indicator",
+        "visible": true
+      },
+      {
+        "i": 2,
+        "aria": null,
+        "text": "マイ ノートブック",
+        "class": "mat-button-toggle-button mat-focus-indicator",
+        "visible": true
+      },
+      {
+        "i": 3,
+        "aria": null,
+        "text": "おすすめのノートブック",
+        "class": "mat-button-toggle-button mat-focus-indicator",
+        "visible": true
+      },
+      {
+        "i": 4,
+        "aria": "検索を開く",
+        "text": "search",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base search-icon-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 5,
+        "aria": "グリッド表示",
+        "text": "grid_view",
+        "class": "mat-button-toggle-button mat-focus-indicator",
+        "visible": true
+      },
+      {
+        "i": 6,
+        "aria": "リスト表示",
+        "text": "view_headline",
+        "class": "mat-button-toggle-button mat-focus-indicator",
+        "visible": true
+      },
+      {
+        "i": 7,
+        "aria": null,
+        "text": "新しい順\narrow_drop_down",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-filter-button mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 8,
+        "aria": "ノートブックを新規作成",
+        "text": "add\n新規作成",
+        "class": "mdc-button mat-mdc-button-base create-new-button mat-tonal-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 9,
+        "aria": "おすすめのノートブックをすべて見る",
+        "text": "すべて表示\nchevron_right",
+        "class": "mdc-button mat-mdc-button-base see-all-button mdc-button--outlined mat-mdc-outlined-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 10,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 11,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 12,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 13,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 14,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 15,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 16,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 17,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 18,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 19,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 20,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 21,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 22,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 23,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 24,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 25,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 26,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 27,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 28,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 29,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 30,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 31,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 32,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 33,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 34,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 35,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 36,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 37,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 38,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 39,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      }
+    ]
+  },
+  {
+    "label": "after_create_click",
+    "url": "https://notebooklm.google.com/",
+    "title": "NotebookLM",
+    "is_notebook": false,
+    "notebook_links": [
+      {
+        "href": "/notebook/2c4f0f26-0797-4cc0-a350-48c4b70d14cc",
+        "text": ""
+      },
+      {
+        "href": "/notebook/19bde485-a9c1-4809-8884-e872b2b67b44",
+        "text": ""
+      },
+      {
+        "href": "/notebook/34510332-d39c-499e-882d-e48393d612cd",
+        "text": ""
+      },
+      {
+        "href": "/notebook/32a12fd1-da7e-43d1-8ce8-aacb60460a00",
+        "text": ""
+      },
+      {
+        "href": "/notebook/90f7e700-77db-495e-afb8-4fb8d6ff7746",
+        "text": ""
+      },
+      {
+        "href": "/notebook/ddea0ff0-2141-4fd6-92bf-b6b8efc61469",
+        "text": ""
+      },
+      {
+        "href": "/notebook/8fa544a1-d36b-4185-99d7-eaf4b566c4d7",
+        "text": ""
+      },
+      {
+        "href": "/notebook/f7ce3a89-400a-454c-9aaf-04b4e1007750",
+        "text": ""
+      },
+      {
+        "href": "/notebook/722bb110-0734-41e3-81ef-6f14f96cf2cf",
+        "text": ""
+      },
+      {
+        "href": "/notebook/2a1c92e3-8ed1-490f-bd8c-45438a383928",
+        "text": ""
+      }
+    ],
+    "buttons": [
+      {
+        "i": 0,
+        "aria": "設定",
+        "text": "settings\n設定",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger extendable-button mat-tonal-button extendable-button-extended mat-un",
+        "visible": true
+      },
+      {
+        "i": 1,
+        "aria": null,
+        "text": "すべて",
+        "class": "mat-button-toggle-button mat-focus-indicator",
+        "visible": true
+      },
+      {
+        "i": 2,
+        "aria": null,
+        "text": "マイ ノートブック",
+        "class": "mat-button-toggle-button mat-focus-indicator",
+        "visible": true
+      },
+      {
+        "i": 3,
+        "aria": null,
+        "text": "おすすめのノートブック",
+        "class": "mat-button-toggle-button mat-focus-indicator",
+        "visible": true
+      },
+      {
+        "i": 4,
+        "aria": "検索を開く",
+        "text": "search",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base search-icon-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 5,
+        "aria": "グリッド表示",
+        "text": "grid_view",
+        "class": "mat-button-toggle-button mat-focus-indicator",
+        "visible": true
+      },
+      {
+        "i": 6,
+        "aria": "リスト表示",
+        "text": "view_headline",
+        "class": "mat-button-toggle-button mat-focus-indicator",
+        "visible": true
+      },
+      {
+        "i": 7,
+        "aria": null,
+        "text": "新しい順\narrow_drop_down",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-filter-button mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 8,
+        "aria": "ノートブックを新規作成",
+        "text": "add\n新規作成",
+        "class": "mdc-button mat-mdc-button-base create-new-button mat-tonal-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 9,
+        "aria": "おすすめのノートブックをすべて見る",
+        "text": "すべて表示\nchevron_right",
+        "class": "mdc-button mat-mdc-button-base see-all-button mdc-button--outlined mat-mdc-outlined-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 10,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 11,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 12,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 13,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 14,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 15,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 16,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 17,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 18,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 19,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 20,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 21,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 22,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 23,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 24,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 25,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 26,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 27,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 28,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 29,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 30,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 31,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 32,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 33,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 34,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 35,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 36,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 37,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 38,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 39,
+        "aria": "プロジェクトの操作メニュー",
+        "text": "more_vert",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger project-button-more mat-mdc-button mat-unthemed",
+        "visible": true
+      }
+    ]
+  },
+  {
+    "label": "notebook_page",
+    "url": "https://notebooklm.google.com/notebook/2c4f0f26-0797-4cc0-a350-48c4b70d14cc",
+    "title": "シャーロック・ホームズ全集 ＆ Game - NotebookLM",
+    "is_notebook": true,
+    "notebook_links": [
+      {
+        "href": "https://accounts.google.com/SignOutOptions?hl=ja&continue=https://notebooklm.google.com/notebook/2c4f0f26-0797-4cc0-a350-48c4b70d14cc&ec=GBRAmgU",
+        "text": ""
+      }
+    ],
+    "buttons": [
+      {
+        "i": 0,
+        "aria": "ノートブックを作成",
+        "text": "add\nノートブックを作成",
+        "class": "mdc-button mat-mdc-button-base create-notebook-button mat-tonal-button mat-unthemed ng-star-inserted",
+        "visible": true
+      },
+      {
+        "i": 1,
+        "aria": "設定",
+        "text": "settings\n設定",
+        "class": "mdc-button mat-mdc-button-base mat-mdc-menu-trigger extendable-button mat-tonal-button extendable-button-extended mat-un",
+        "visible": true
+      },
+      {
+        "i": 2,
+        "aria": "ソースパネルを閉じる",
+        "text": "dock_to_right",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger toggle-source-panel-button label-medium-",
+        "visible": true
+      },
+      {
+        "i": 3,
+        "aria": "チャット オプション",
+        "text": "more_vert",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-menu-trigger mat-mdc-tooltip-trigger label-medium-button",
+        "visible": true
+      },
+      {
+        "i": 4,
+        "aria": "チャットパネルを一番下までスクロールします",
+        "text": "",
+        "class": "mdc-fab mat-mdc-fab-base mat-mdc-fab mat-mdc-button-base mat-mdc-tooltip-trigger jump-to-bottom-button mat-primary",
+        "visible": false
+      },
+      {
+        "i": 5,
+        "aria": "送信",
+        "text": "arrow_forward",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base submit-button outset-focus-ring mat-mdc-button-disabled mat-unth",
+        "visible": true
+      },
+      {
+        "i": 6,
+        "aria": "Studio のパネルを閉じる",
+        "text": "dock_to_left",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger toggle-studio-panel-button label-medium-",
+        "visible": true
+      },
+      {
+        "i": 7,
+        "aria": null,
+        "text": "",
+        "class": "mdc-button mat-mdc-button-base artifact-stretched-button mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 8,
+        "aria": "もっと見る",
+        "text": "more_vert",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-menu-trigger mat-mdc-tooltip-trigger artifact-more-butto",
+        "visible": true
+      },
+      {
+        "i": 9,
+        "aria": null,
+        "text": "",
+        "class": "mdc-button mat-mdc-button-base artifact-stretched-button mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 10,
+        "aria": "その他",
+        "text": "more_vert",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-menu-trigger mat-mdc-tooltip-trigger artifact-more-butto",
+        "visible": true
+      },
+      {
+        "i": 11,
+        "aria": null,
+        "text": "",
+        "class": "mdc-button mat-mdc-button-base artifact-stretched-button mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 12,
+        "aria": "再生",
+        "text": "play_arrow",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger artifact-action-button mat-unthemed ng-s",
+        "visible": true
+      },
+      {
+        "i": 13,
+        "aria": "その他",
+        "text": "more_vert",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-menu-trigger mat-mdc-tooltip-trigger artifact-more-butto",
+        "visible": true
+      },
+      {
+        "i": 14,
+        "aria": null,
+        "text": "",
+        "class": "mdc-button mat-mdc-button-base artifact-stretched-button mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 15,
+        "aria": "再生",
+        "text": "play_arrow",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-tooltip-trigger artifact-action-button mat-unthemed ng-s",
+        "visible": true
+      },
+      {
+        "i": 16,
+        "aria": "その他",
+        "text": "more_vert",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-menu-trigger mat-mdc-tooltip-trigger artifact-more-butto",
+        "visible": true
+      },
+      {
+        "i": 17,
+        "aria": null,
+        "text": "",
+        "class": "mdc-button mat-mdc-button-base artifact-stretched-button mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 18,
+        "aria": "その他",
+        "text": "more_vert",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-menu-trigger mat-mdc-tooltip-trigger artifact-more-butto",
+        "visible": true
+      },
+      {
+        "i": 19,
+        "aria": null,
+        "text": "",
+        "class": "mdc-button mat-mdc-button-base artifact-stretched-button mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 20,
+        "aria": "その他",
+        "text": "more_vert",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-menu-trigger mat-mdc-tooltip-trigger artifact-more-butto",
+        "visible": true
+      },
+      {
+        "i": 21,
+        "aria": null,
+        "text": "",
+        "class": "mdc-button mat-mdc-button-base artifact-stretched-button mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 22,
+        "aria": "その他",
+        "text": "more_vert",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-menu-trigger mat-mdc-tooltip-trigger artifact-more-butto",
+        "visible": true
+      },
+      {
+        "i": 23,
+        "aria": null,
+        "text": "",
+        "class": "mdc-button mat-mdc-button-base artifact-stretched-button mat-mdc-button mat-unthemed",
+        "visible": true
+      },
+      {
+        "i": 24,
+        "aria": "その他",
+        "text": "more_vert",
+        "class": "mdc-icon-button mat-mdc-icon-button mat-mdc-button-base mat-mdc-menu-trigger mat-mdc-tooltip-trigger artifact-more-butto",
+        "visible": true
+      }
+    ]
+  },
+  {
+    "add_source_matches": []
+  }
+]

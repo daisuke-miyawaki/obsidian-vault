@@ -1,0 +1,79 @@
+{
+  "project": "AI思考OS ルール作り Phase2",
+  "items": [
+    {
+      "id": "memory-policy",
+      "title": "Memory Policy v0.1",
+      "order": 1,
+      "references": [
+        "AI思考OS_ルール作り_構築記録/記録/20260719_Grok外部記憶運用ノート v0.1.md",
+        "AI思考OS_ルール作り_構築記録/成果物/User Model v0.1.md"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "grok-sync-rule",
+      "title": "Grok同期ルール",
+      "order": 2,
+      "references": [
+        "AI思考OS_ルール作り_構築記録/記録/20260719_Grok外部記憶運用ノート v0.1.md"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "failure-library",
+      "title": "Failure Library v0.1",
+      "order": 3,
+      "references": [
+        "AI思考OS_ルール作り_構築記録/記録/20260719_AI思考OS v0.1 構築記録.md",
+        "第二の脳構築日記/ハルシネーション問題.md"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "decision-log",
+      "title": "Decision Log 運用ルール",
+      "order": 4,
+      "references": [
+        "Pure_OS_Town/raw_legacy/Grok_Cursor_Era/00_AI_Governance_Constitution.md"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "review-process-draft",
+      "title": "Review Process 下書き",
+      "order": 5,
+      "references": [
+        "Pure_OS_Town/raw_legacy/Grok_Cursor_Era/00_AI_Governance_Constitution.md"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "governance-index",
+      "title": "AI Governance 索引",
+      "order": 6,
+      "references": [
+        "SecondBrain/03_AI_Systems/Governance/00_Index.md"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "change-log-rule",
+      "title": "Change Log 運用ルール",
+      "order": 7,
+      "references": [
+        "SecondBrain/03_AI_Systems/Governance/04_Change_Log.md"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "rule-builder-moc",
+      "title": "ルール作りMOC",
+      "order": 8,
+      "references": [
+        "AI思考OS_ルール作り_構築記録/仕様書_LangGraph×Hermes×OpenClaw_ルール作り自動化_v0.1.md"
+      ],
+      "status": "pending"
+    }
+  ]
+}

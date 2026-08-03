@@ -1,0 +1,12 @@
+【Codex新機能】スマホからAIコーディングを監督する時代へ／Mac×QRで繋がる開発環境|https://www.youtube.com/watch?v=cViL6m41Tl4
+【AI会社運営 #0】1人 + AI agent で会社、どこまでいける？　Asura-AI 始動|https://www.youtube.com/watch?v=umw_8X7zSro
+【徹底解説】Grok hermes連携で常駐エージェントの頭脳になった xAI の本気|https://www.youtube.com/watch?v=pOKiy58e-Es
+【codex公式!?】Open Design が Codex で動くようになった日 — エージェントに「キャンバス」を渡す|https://www.youtube.com/watch?v=07n92bxc5-Q
+【速報】Grok Build CLI 完全解説 — xAI がコーディングエージェント市場に殴り込み|https://www.youtube.com/watch?v=bj0X7NF31K8
+【Codex Sites】 がやばい。OpenAI が v0 と Artifacts と BI を同時に殴り始めた話|https://www.youtube.com/watch?v=RF4ICxAAPMQ
+自分で育つAIエージェント｜Hermes×MCPで24時間動くリサーチャーを作る|https://www.youtube.com/watch?v=Jy9Dr0OXGjM
+公式Hermes Desktopが来た！Nous ResearchのGUI版を徹底解説|https://www.youtube.com/watch?v=jVtNl6-XxLQ
+HermesのMCPは何が違う？ AIを「作業チーム」に変える入口|https://www.youtube.com/watch?v=uLEOyrCBdvs
+Claude Code サブエージェント5階層 vs 1階層 ── 開発はどう変わる？|https://www.youtube.com/watch?v=N5VfI8DUAzo
+【もうプロンプトは書くな！】 Loop Engineering 徹底解説|https://www.youtube.com/watch?v=aiQJ98bYoYM
+もう手順書は書かない ── Codex Record & Replay 徹底解説｜やって見せるだけでAIがスキルを覚える|https://www.youtube.com/watch?v=E6kbf6tnDOg

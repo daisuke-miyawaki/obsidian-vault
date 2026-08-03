@@ -1,0 +1,4 @@
+﻿Name,Hex,RGB,SASS変数
+成功,#2ECC71,"rgb(46, 204, 113)",$color-success
+失敗,#E74C3C,"rgb(231, 76, 60)",$color-failure
+注意,#F1C40F,"rgb(241, 196, 15)",$color-warning

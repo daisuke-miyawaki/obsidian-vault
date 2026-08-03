@@ -1,0 +1,7 @@
+﻿Name,Hex,RGB,SASS変数
+雪,#F4F4F4,"rgb(244, 244, 244)",$color-snow
+月,#999999,"rgb(153, 153, 153)",$color-moon
+シルバー,#CCCCCC,"rgb(204, 204, 204)",$color-silver
+石炭,#333333,"rgb(51, 51, 51)",$color-coal
+ニッケル,#666666,"rgb(102, 102, 102)",$color-nickel
+黒,#000000,"rgb(0,0,0)",$color-black

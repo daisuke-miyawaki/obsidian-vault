@@ -1,0 +1,3 @@
+﻿Name,Hex,RGB,SASS変数
+スカイ,#369FFF,"rgb(54, 159, 255)",$color-sky
+コーポレートカラー,#0061FF,"rgb(0, 97, 255)",$color-acme-blue
