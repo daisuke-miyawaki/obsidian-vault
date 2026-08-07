@@ -43,7 +43,9 @@ YouTubeチャンネル **「Sura×Asura For AI Agent」** の厳選12本を、**
 ## 3. ファイル・パス（全部ここ）
 
 ```
-ワークスペースルート: /Volumes/MultiPurpose_SSD/AI関連/
+ワークスペースルート: （Vault直下。外箱名は変えてよい。絶対パスはメモに固定しない）
+# 現行例: /Volumes/MultiPurpose_SSD/DigitalGarden/
+# 旧例: /Volumes/MultiPurpose_SSD/AI関連/（2026-08-04 外箱名変更前）
 
 【成果物】
 03_素材庫/YouTube/Sura×Asura_For_AI_Agent/
@@ -197,7 +199,9 @@ runtime:
 ## 10. 再開手順（そのまま実行可）
 
 ```bash
-cd "/Volumes/MultiPurpose_SSD/AI関連/03_素材庫/YouTube/notebooklm_bot"
+cd "（Vault直下）/03_素材庫/YouTube/notebooklm_bot"
+# 現行例: cd "/Volumes/MultiPurpose_SSD/DigitalGarden/03_素材庫/YouTube/notebooklm_bot"
+# 旧例: /Volumes/MultiPurpose_SSD/AI関連/…（2026-08-04 外箱名変更前）
 source .venv/bin/activate
 
 # 古いブラウザが残っていたら

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 import re
 import sys
 import time
@@ -16,7 +17,15 @@ sys.path.insert(0, str(ROOT))
 from memory import add_memory, get_all_memories, search_memory  # noqa: E402
 
 USER_ID = "customer_raifu"
-SOURCE_DIR = Path("/Volumes/MultiPurpose_SSD/AI関連/らいふ")
+# このファイル: 02_活動基盤/実務/navikun/ → Vault直下は parents[3]
+# 旧パス …/AI関連/らいふ は廃止。いまの置き場に相対で合わせる。
+_VAULT_ROOT = Path(__file__).resolve().parents[3]
+SOURCE_DIR = Path(
+    os.environ.get(
+        "RAIFU_SOURCE_DIR",
+        str(_VAULT_ROOT / "02_活動基盤" / "実務" / "お客さん情報" / "らいふギャラリー"),
+    )
+)
 MAX_CHUNK = 1800
 
 

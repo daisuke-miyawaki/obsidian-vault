@@ -30,7 +30,9 @@ CSV形式で。ヘッダー付き。仕事Bのルール厳守。
 1. 出力CSVを `マーケティング・先読みサイクル年表.xlsx` の **データ** シートに貼る（既存項目は上書き or 下に追加）
 2. ターミナル：
    ```bash
-   cd "/Volumes/MultiPurpose_SSD/AI関連/02_活動基盤/運用/sakiyomi-cycle-chart"
+   cd "（Vault直下）/02_活動基盤/運用/sakiyomi-cycle-chart"
+   # 例（現行外箱名 DigitalGarden）:
+   # cd "/Volumes/MultiPurpose_SSD/DigitalGarden/02_活動基盤/運用/sakiyomi-cycle-chart"
    python3 refresh_bands.py
    ```
 3. **年表** シートを開いて帯・ヒントを確認

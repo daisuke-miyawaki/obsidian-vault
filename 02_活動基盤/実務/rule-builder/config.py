@@ -1,9 +1,13 @@
 """アプリ設定（環境変数）。"""
 
 import os
+from pathlib import Path
 
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
+# このファイル: 02_活動基盤/実務/rule-builder/config.py → Vault直下は parents[3]
+_DEFAULT_VAULT_ROOT = str(Path(__file__).resolve().parents[3])
 
 
 class Settings(BaseSettings):
@@ -25,7 +29,8 @@ class Settings(BaseSettings):
     max_openclaw_api_calls: int = 3
 
     port: int = 8080
-    workspace_root: str = "/Volumes/MultiPurpose_SSD/AI関連"
+    # 外箱フォルダ名が変わっても追従する。上書きするときだけ WORKSPACE_ROOT を使う。
+    workspace_root: str = Field(default=_DEFAULT_VAULT_ROOT, validation_alias="WORKSPACE_ROOT")
 
     @property
     def gemini_keys(self) -> list[str]:
