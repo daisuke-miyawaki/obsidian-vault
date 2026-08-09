@@ -41,7 +41,8 @@ AI思考OSのルール作りにおいて、完成したルール正本へ迷わ�
 - `User Model v0.1.md`
 - `AI思考OS_v0.1.md`
 
-作業中の下書き：`02_活動基盤/実務/rule-builder/data/drafts/`
+作業中の下書き：`02_活動基盤/実務/rule-builder/data/drafts/`  
+（例: `session-asset-rule_v0.md` … 未正本。Human Review 前）
 
 ---
 

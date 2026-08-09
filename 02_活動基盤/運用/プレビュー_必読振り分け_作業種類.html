@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>必読振り分け｜作業種類の一覧（相談用）</title>
+  <style>
+    :root {
+      --bg: #f6f4ef;
+      --ink: #1c1b19;
+      --muted: #5c574f;
+      --line: #d9d2c5;
+      --card: #fffdf8;
+      --accent: #2f5d50;
+      --chip: #e7efe9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, #efe8d8 0, transparent 40%),
+        var(--bg);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin: 0 0 8px;
+      letter-spacing: 0.02em;
+    }
+    .lead {
+      color: var(--muted);
+      margin: 0 0 28px;
+      max-width: 42em;
+    }
+    .note {
+      border: 1px solid var(--line);
+      background: var(--card);
+      padding: 14px 16px;
+      margin-bottom: 28px;
+      border-radius: 8px;
+    }
+    .note strong { color: var(--accent); }
+    .grid {
+      display: grid;
+      gap: 14px;
+    }
+    article {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 16px 18px;
+    }
+    .top {
+      display: flex;
+      gap: 10px;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+    .num {
+      font-variant-numeric: tabular-nums;
+      color: var(--accent);
+      font-weight: 700;
+      min-width: 2ch;
+    }
+    h2 {
+      font-size: 1.05rem;
+      margin: 0;
+      font-weight: 700;
+    }
+    .chip {
+      display: inline-block;
+      background: var(--chip);
+      color: var(--accent);
+      font-size: 0.78rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+    p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .examples {
+      margin: 10px 0 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .examples li {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 3px 8px;
+      font-size: 0.8rem;
+      color: var(--ink);
+      background: #fff;
+    }
+    footer {
+      margin-top: 32px;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>必読振り分け｜作業種類の一覧</h1>
+    <p class="lead">
+      相談用プレビューです。上にあるほど重要度が高い並びです。
+      層の名前（人生戦略OS／Pure OS Town／AI思考OS）を揃えています。
+    </p>
+
+    <div class="note">
+      <strong>今回の変更：</strong>
+      1番から「台帳」を外して「人生戦略OS」に統一。
+      旧「ルール・正本・OS整備」を「AI思考OS」に改名。
+      Pure OS Town を憲法の位置として上へ移動（人生戦略OSの次）。
+    </div>
+
+    <div class="grid">
+      <article>
+        <div class="top">
+          <h2><span class="num">01</span> 人生戦略OS</h2>
+          <span class="chip">最上位の軸</span>
+        </div>
+        <p>人生の方針・価値観・番号ファイルなど、OSコアそのもの。</p>
+        <ul class="examples">
+          <li>0000系</li>
+          <li>0800_活動戦略</li>
+          <li>0900_AI戦略</li>
+          <li>管理台帳（必要なとき）</li>
+        </ul>
+      </article>
+
+      <article>
+        <div class="top">
+          <h2><span class="num">02</span> Pure OS Town</h2>
+          <span class="chip">憲法</span>
+        </div>
+        <p>Town憲法、Principles、Town運用そのもの。</p>
+        <ul class="examples">
+          <li>PURE_OS.md</li>
+          <li>Principles</li>
+          <li>Town運用</li>
+          <li>Governance系</li>
+        </ul>
+      </article>
+
+      <article>
+        <div class="top">
+          <h2><span class="num">03</span> AI思考OS</h2>
+          <span class="chip">法律</span>
+        </div>
+        <p>AIの判断原則、ルール、正本化、MOC、Human Reviewなど。</p>
+        <ul class="examples">
+          <li>AI思考OS_v0.1</li>
+          <li>User Model</li>
+          <li>ルール作成完走</li>
+          <li>MOC／正本化</li>
+        </ul>
+      </article>
+
+      <article>
+        <div class="top">
+          <h2><span class="num">04</span> AIの癖・ガバナンス</h2>
+          <span class="chip">品質防衛</span>
+        </div>
+        <p>ハルシネーション、迎合、やってる感、範囲拡大、勝手な追加などを抑える。</p>
+        <ul class="examples">
+          <li>ハルシネーション</li>
+          <li>やってる感</li>
+          <li>付帯更新の抑制</li>
+          <li>Governance詳細</li>
+        </ul>
+      </article>
+
+      <article>
+        <div class="top">
+          <h2><span class="num">05</span> 自分のビジネス</h2>
+          <span class="chip">事業本体</span>
+        </div>
+        <p>自分の事業の方針・商品・収益・穏やかさとの両立。参謀型支援やマーケ・AI活用事業の設計。</p>
+        <ul class="examples">
+          <li>事業方針</li>
+          <li>商品・サービス設計</li>
+          <li>収益の仕組み</li>
+          <li>負荷と穏やかさの両立</li>
+        </ul>
+      </article>
+
+      <article>
+        <div class="top">
+          <h2><span class="num">06</span> お客さんの仕事・案件</h2>
+          <span class="chip">実務</span>
+        </div>
+        <p>顧客向けの提案、議事、納品、案件フォルダの整理など。</p>
+        <ul class="examples">
+          <li>提案資料</li>
+          <li>MTGメモ</li>
+          <li>お客さん情報</li>
+          <li>納品チェック</li>
+        </ul>
+      </article>
+
+      <article>
+        <div class="top">
+          <h2><span class="num">07</span> VPS・エージェント・新AIツール構築</h2>
+          <span class="chip">実行基盤</span>
+        </div>
+        <p>VPS、SSH、Docker、マルチエージェント、作業代行の仕組みづくり。</p>
+        <ul class="examples">
+          <li>VPS構築</li>
+          <li>エージェント連携</li>
+          <li>Remote SSH</li>
+          <li>自律ループ</li>
+        </ul>
+      </article>
+
+      <article>
+        <div class="top">
+          <h2><span class="num">08</span> ナレッジ作業</h2>
+          <span class="chip">資産化</span>
+        </div>
+        <p>動画や資料のナレッジ化、Inbox整理、素材庫への取り込み。</p>
+        <ul class="examples">
+          <li>YouTubeナレッジ化</li>
+          <li>NotebookLM</li>
+          <li>Inbox仕分け</li>
+          <li>素材庫整理</li>
+        </ul>
+      </article>
+
+      <article>
+        <div class="top">
+          <h2><span class="num">09</span> 外部AI連携</h2>
+          <span class="chip">受け渡し</span>
+        </div>
+        <p>Grokなど外部AIへ何を渡すか、同期する／しないの判断。</p>
+        <ul class="examples">
+          <li>Grok同期</li>
+          <li>渡す範囲</li>
+          <li>正本と作業面の分離</li>
+        </ul>
+      </article>
+
+      <article>
+        <div class="top">
+          <h2><span class="num">10</span> AI環境・設定</h2>
+          <span class="chip">環境全般</span>
+        </div>
+        <p>AIを使う環境の置き方、見える化、写しと正本、ツール設定の整理全般。</p>
+        <ul class="examples">
+          <li>環境の置き場</li>
+          <li>正本／写し</li>
+          <li>設定の整理</li>
+          <li>見え方の改善</li>
+        </ul>
+      </article>
+
+      <article>
+        <div class="top">
+          <h2><span class="num">11</span> リサーチ・ベンチマーク</h2>
+          <span class="chip">調査</span>
+        </div>
+        <p>事例収集、比較、ベンチマーク元の洗い出し。</p>
+        <ul class="examples">
+          <li>同一テーマ並列調査</li>
+          <li>候補比較</li>
+          <li>原則抽出</li>
+        </ul>
+      </article>
+    </div>
+
+    <footer>
+      更新: 2026-08-09 ／ 相談用プレビュー ／ 階層名を揃えた版
+    </footer>
+  </main>
+</body>
+</html>
