@@ -24,8 +24,9 @@ obsidian: true
 ## AI思考OS（直下＝正本）
 
 入口：[[AI思考OS/ルール作りMOC v0.1]]  
-主な法律：AI思考OS_v0.1／Memory Policy／Failure Library／エコシステム運用ルール など  
-経緯・仕様の資産：`AI思考OS/構築記録/`（06へ流さない）
+主な法律：AI思考OS_v0.1／Memory Policy／Failure Library／エコシステム運用ルール／構築記録の置き方 など  
+経緯・仕様の資産：`AI思考OS/構築記録/`（06へ流さない）  
+地図：`AI思考OS/構築記録/00_入口_構築記録.md`（①経緯／②仕組み）
 
 ## よく使う入口
 
