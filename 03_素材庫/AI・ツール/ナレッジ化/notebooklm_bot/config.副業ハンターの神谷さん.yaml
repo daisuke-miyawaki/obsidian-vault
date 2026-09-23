@@ -1,0 +1,33 @@
+channel_slug: 副業ハンターの神谷さん
+taxonomy: マーケティング → 副業・AI → 副業ハンターの神谷さん
+
+notebooklm:
+  base_url: https://notebooklm.google.com
+  notebook_name: （未使用・文字起こしルート）
+  notebook_per_video: false
+
+paths:
+  urls_file: ../../../マーケティング/副業ハンターの神谷さん/_urls_selected.txt
+  output_dir: ../../../マーケティング/副業ハンターの神谷さん
+  index_file: ../../../マーケティング/副業ハンターの神谷さん/_index.md
+  prompt_file: prompts/video_note_ai.txt
+
+gemini:
+  model: gemini-2.5-flash
+  api_key_env: GEMINI_API_KEY
+  api_keys_env: GEMINI_API_KEYS
+  env_file: ../youtube_knowledge_system/GEMINI_API_KEY.env
+  daily_max_requests: 20
+  delay_sec: 5
+  max_retries: 2
+  retry_wait_sec: 15
+
+runtime:
+  headless: false
+  reply_timeout_sec: 1200
+  source_index_timeout_sec: 120
+  delay_between_videos_sec: 90
+  max_retries: 3
+  batch_size: 50
+  daily_max_chats: 5
+  stop_on_rate_limit: true

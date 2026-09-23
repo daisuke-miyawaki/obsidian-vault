@@ -16,6 +16,10 @@ purpose: ecosystem-inventory
 
 （中身は開いて確認。ツール設定・実験メモ）
 
+## 自分の観念について/
+
+- デスクトップ `自分の観念について/` と同内容（お金のブロック動画ナレッジ）。Mac へは `sync-to-desktop.sh`
+
 ## プロンプト/
 
 - [[プロンプト/NotebookLMでYouTubeをまとめる]]
