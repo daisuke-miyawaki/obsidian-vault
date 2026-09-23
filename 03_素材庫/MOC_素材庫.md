@@ -3,7 +3,7 @@ type: moc
 id: moc-materials
 title: MOC｜素材庫（過去ナレッジ一覧）
 created: 2026-08-01
-updated: 2026-08-12
+updated: 2026-09-23
 tags: [moc, materials]
 status: active
 obsidian: true
@@ -46,6 +46,7 @@ purpose: ecosystem-inventory
 - [[宇宙の法則/捻くれ者さん/_index]]
 - [[宇宙の法則/桑田さん/_index]]
 - [[宇宙の法則/みかみさん/_index]]
+- [[宇宙の法則/偉人の言葉/_index]] … お金のブロック（2026-09-23・1本）
 
 ---
 
