@@ -3,7 +3,7 @@ type: moc
 id: moc-materials
 title: MOC｜素材庫（過去ナレッジ一覧）
 created: 2026-08-01
-updated: 2026-08-12
+updated: 2026-09-27
 tags: [moc, materials]
 status: active
 obsidian: true
@@ -42,7 +42,7 @@ purpose: ecosystem-inventory
 - [[宇宙の法則/自己観察さん/_index]]
 - [[宇宙の法則/詭弁さん/_index]]
 - [[宇宙の法則/クラゲさん/_index]]
-- [[宇宙の法則/もりたさん/_index]]
+- [[宇宙の法則/もりたさん/_index]] … 全10本統合：[[宇宙の法則/もりたさん/もりたさん_全10本統合ナレッジ]]
 - [[宇宙の法則/捻くれ者さん/_index]]
 - [[宇宙の法則/桑田さん/_index]]
 - [[宇宙の法則/みかみさん/_index]]
