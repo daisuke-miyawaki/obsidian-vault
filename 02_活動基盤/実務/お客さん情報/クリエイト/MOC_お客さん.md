@@ -2,7 +2,7 @@
 type: moc
 title: MOC｜クリエイト
 created: 2026-08-01
-updated: 2026-08-07
+updated: 2026-10-04
 tags: [moc, client]
 status: active
 client: クリエイト
@@ -28,7 +28,7 @@ purpose: ecosystem-inventory
 
 ## 進行中／過去案件
 
-（案件フォルダができたらここに1行）
+- [[20261004_看板設置確認VR_提案書の流れ]] … 工務店説明用の提案書目次・動画順・HP（動画の下にサンプル）の置き方。本文はまだ書いていない
 
 ## いま見えている仕事の芽（2026-08-07時点）
 
