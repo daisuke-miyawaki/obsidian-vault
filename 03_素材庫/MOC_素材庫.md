@@ -3,7 +3,7 @@ type: moc
 id: moc-materials
 title: MOC｜素材庫（過去ナレッジ一覧）
 created: 2026-08-01
-updated: 2026-08-12
+updated: 2026-10-05
 tags: [moc, materials]
 status: active
 obsidian: true
@@ -21,6 +21,7 @@ purpose: ecosystem-inventory
 │   └── ユング心理学/
 ├── マーケティング/      … かくじかん・記事
 ├── AI・ツール/
+│   ├── Web・UI/         … ボタン・CTA など UI 参考
 │   ├── エージェント/
 │   └── ナレッジ化/      … notebooklm_bot・Obsidian など
 ├── 講座/
@@ -68,6 +69,7 @@ purpose: ecosystem-inventory
 
 ## AI・ツール
 
+- [[AI・ツール/Web・UI/_index]] … Web・ホームページ・アプリ向け UI 参考（CTA ボタンなど）
 - [[AI・ツール/エージェント/Sura×Asura_For_AI_Agent/_index]]
 - [[AI・ツール/エージェント/AIエージェント/_index]]
 - [[AI・ツール/エージェント/cocona_ai_school/_index]]
