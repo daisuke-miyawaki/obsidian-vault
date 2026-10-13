@@ -68,6 +68,8 @@ purpose: ecosystem-inventory
 
 ## AI・ツール
 
+- [[AI・ツール/Masayume AI Lab/_index]] … AIエージェント事例解説（2026-10-13〜）
+
 - [[AI・ツール/エージェント/Sura×Asura_For_AI_Agent/_index]]
 - [[AI・ツール/エージェント/AIエージェント/_index]]
 - [[AI・ツール/エージェント/cocona_ai_school/_index]]
