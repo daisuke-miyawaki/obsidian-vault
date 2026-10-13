@@ -1,6 +1,6 @@
 # おさる式AIマーケ実践編 動画ナレッジ 進捗一覧
 
-全 **16** 本（2026-08-06 再生リストから登録）
+全 **17** 本（2026-08-06 再生リスト＋2026-10-13 単本追加）
 
 再生リスト: [おさる式AIマーケ実践編](https://www.youtube.com/playlist?list=PLeR4PZXCsRRTXIvxk2VjvO-IE6rW_nl0p)
 
@@ -22,3 +22,4 @@
 | 014 | 【2026決定版】AI×SNSマーケで0→億！コンテンツビジネスの全ステップをたった20分で完全解… | [YouTube](https://www.youtube.com/watch?v=-eONnfcxPZE) | [014_【2026決定版】AI×SNSマーケで0→億！コンテンツビジ.md](014_【2026決定版】AI×SNSマーケで0→億！コンテンツビジ.md) | 完了 |
 | 015 | チャレンジローンチで“販売導線”を最適化｜一撃5億のローンチ型セールスファネルを実例解説 | [YouTube](https://www.youtube.com/watch?v=G63WvNBfHfU) | [015_チャレンジローンチで“販売導線”を最適化｜一撃5億のローンチ.md](015_チャレンジローンチで“販売導線”を最適化｜一撃5億のローンチ.md) | 完了 |
 | 016 | 一撃で100万再生とれる台本はこれで作れます【YouTube×AI】 | [YouTube](https://www.youtube.com/watch?v=A0gVU7LkkNA) | [016_一撃で100万再生とれる台本はこれで作れます【YouTube.md](016_一撃で100万再生とれる台本はこれで作れます【YouTube.md) | 完了 |
+| 017 | 2027年マーケティング変わりました | [YouTube](https://www.youtube.com/watch?v=wRF0pUcbf0M) | [017_2027年マーケティング変わりました.md](017_2027年マーケティング変わりました.md) | 完了 |
